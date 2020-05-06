@@ -2,4 +2,26 @@ body {
     background-image: url("img/facHji.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    /* margin-bottom: 5%; */
 }
+
+.imageContainer img {
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+}
+
+.imageContainer > img:hover {
+    width: 400px;
+    height: 300px;
+    align-content: center;
+  }
+
+  h1, h2 {
+      text-align: center;
+  }
+
+  p:hover {
+      color: white;
+      background-color: black;
+  }
